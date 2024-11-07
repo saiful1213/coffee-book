@@ -1,7 +1,7 @@
 
 const Banner = () => {
     return (
-        <div className="min-h-[550px] bg-banner bg-center bg-cover">
+        <div className="min-h-[550px] bg-banner bg-center bg-cover mt-20">
         </div>
     )
 }
