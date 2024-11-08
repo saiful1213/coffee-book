@@ -10,7 +10,7 @@ const CoffeeDetails = () => {
     useEffect(() => {
         const coffee = coffees.find(coffee => coffee.id === Number(id));
         setCoffee(coffee)
-    }, [])
+    }, [coffees, id])
 
     return (
         <div className="mt-20">
